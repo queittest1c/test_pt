@@ -1,0 +1,593 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаАналогСтрРазделить" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа аналог стр разделить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа аналог стр разделить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаАналогСтрРазделитьРасширеннаяПодсказка" id="10"/>
+		</UsualGroup>
+		<Pages name="ГруппаСтраницы" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="12"/>
+			<ChildItems>
+				<Page name="ГруппаСтроки" id="13">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строки</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа строки</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаСтрокиРасширеннаяПодсказка" id="14"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаКнопок" id="84">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа кнопок</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа кнопок</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаКнопокРасширеннаяПодсказка" id="85"/>
+							<ChildItems>
+								<Button name="ВыполнитьАналогСтрРазделить" id="7">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ВыполнитьАналогСтрРазделить</CommandName>
+									<ExtendedTooltip name="ВыполнитьАналогСтрРазделитьРасширеннаяПодсказка" id="8"/>
+								</Button>
+								<Button name="ВыполнитьАналогСтрСоединить" id="36">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ВыполнитьАналогСтрСоединить</CommandName>
+									<ExtendedTooltip name="ВыполнитьАналогСтрСоединитьРасширеннаяПодсказка" id="37"/>
+								</Button>
+								<Button name="ПроверкаСтруктурыМассивыВСтроку" id="82">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ПроверкаСтруктурыМассивыВСтроку</CommandName>
+									<ExtendedTooltip name="ПроверкаСтруктурыМассивыВСтрокуРасширеннаяПодсказка" id="83"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаИсходнаяСтрокаРазделитель" id="88">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа исходная строка разделитель</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа исходная строка разделитель</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаИсходнаяСтрокаРазделительРасширеннаяПодсказка" id="89"/>
+							<ChildItems>
+								<InputField name="ИсходнаяСтрока" id="1">
+									<DataPath>ИсходнаяСтрока</DataPath>
+									<ContextMenu name="ИсходнаяСтрокаКонтекстноеМеню" id="2"/>
+									<ExtendedTooltip name="ИсходнаяСтрокаРасширеннаяПодсказка" id="3"/>
+								</InputField>
+								<InputField name="Разделитель" id="4">
+									<DataPath>Разделитель</DataPath>
+									<ContextMenu name="РазделительКонтекстноеМеню" id="5"/>
+									<ExtendedTooltip name="РазделительРасширеннаяПодсказка" id="6"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<Table name="ИсходныйСписок" id="20">
+							<Representation>List</Representation>
+							<Height>2</Height>
+							<Header>false</Header>
+							<HorizontalLines>false</HorizontalLines>
+							<VerticalLines>false</VerticalLines>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<DataPath>ИсходныйСписок</DataPath>
+							<RowPictureDataPath>ИсходныйСписок.Picture</RowPictureDataPath>
+							<CommandSet>
+								<ExcludedCommand>Pickup</ExcludedCommand>
+							</CommandSet>
+							<ContextMenu name="ИсходныйСписокКонтекстноеМеню" id="21"/>
+							<AutoCommandBar name="ИсходныйСписокКоманднаяПанель" id="22"/>
+							<ExtendedTooltip name="ИсходныйСписокРасширеннаяПодсказка" id="23"/>
+							<SearchStringAddition name="ИсходныйСписокСтрокаПоиска" id="24">
+								<AdditionSource>
+									<Item>ИсходныйСписок</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ИсходныйСписокСтрокаПоискаКонтекстноеМеню" id="25"/>
+								<ExtendedTooltip name="ИсходныйСписокСтрокаПоискаРасширеннаяПодсказка" id="26"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ИсходныйСписокСостояниеПросмотра" id="27">
+								<AdditionSource>
+									<Item>ИсходныйСписок</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ИсходныйСписокСостояниеПросмотраКонтекстноеМеню" id="28"/>
+								<ExtendedTooltip name="ИсходныйСписокСостояниеПросмотраРасширеннаяПодсказка" id="29"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ИсходныйСписокУправлениеПоиском" id="30">
+								<AdditionSource>
+									<Item>ИсходныйСписок</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ИсходныйСписокУправлениеПоискомКонтекстноеМеню" id="31"/>
+								<ExtendedTooltip name="ИсходныйСписокУправлениеПоискомРасширеннаяПодсказка" id="32"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="ИсходныйСписокЗначение" id="33">
+									<DataPath>ИсходныйСписок.Value</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ChooseType>false</ChooseType>
+									<ContextMenu name="ИсходныйСписокЗначениеКонтекстноеМеню" id="34"/>
+									<ExtendedTooltip name="ИсходныйСписокЗначениеРасширеннаяПодсказка" id="35"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+						<InputField name="Результат" id="17">
+							<DataPath>Результат</DataPath>
+							<HorizontalStretch>true</HorizontalStretch>
+							<MultiLine>true</MultiLine>
+							<ContextMenu name="РезультатКонтекстноеМеню" id="18"/>
+							<ExtendedTooltip name="РезультатРасширеннаяПодсказка" id="19"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаМассивы" id="15">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Массивы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа массивы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаМассивыРасширеннаяПодсказка" id="16"/>
+					<ChildItems>
+						<InputField name="ВариантСортировки" id="79">
+							<DataPath>ВариантСортировки</DataPath>
+							<DropListButton>true</DropListButton>
+							<ChooseType>false</ChooseType>
+							<ChoiceList>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>списком</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:decimal">1</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>выбором</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:decimal">2</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>пузырьком</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:decimal">3</Value>
+									</xr:Value>
+								</xr:Item>
+							</ChoiceList>
+							<ContextMenu name="ВариантСортировкиКонтекстноеМеню" id="80"/>
+							<ExtendedTooltip name="ВариантСортировкиРасширеннаяПодсказка" id="81"/>
+						</InputField>
+						<InputField name="КоличествоЭлементов" id="72">
+							<DataPath>КоличествоЭлементов</DataPath>
+							<SpinButton>true</SpinButton>
+							<MinValue xsi:type="xs:decimal">1</MinValue>
+							<ContextMenu name="КоличествоЭлементовКонтекстноеМеню" id="73"/>
+							<ExtendedTooltip name="КоличествоЭлементовРасширеннаяПодсказка" id="74"/>
+						</InputField>
+						<Button name="ЗаполнитьМассивСлучайнымиЗначениями" id="75">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ЗаполнитьМассивСлучайнымиЗначениями</CommandName>
+							<ExtendedTooltip name="ЗаполнитьМассивСлучайнымиЗначениямиРасширеннаяПодсказка" id="76"/>
+						</Button>
+						<Button name="СортироватьМассив" id="77">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.СортироватьМассив</CommandName>
+							<ExtendedTooltip name="СортироватьМассивРасширеннаяПодсказка" id="78"/>
+						</Button>
+						<UsualGroup name="ГруппаВсеМассивы" id="70">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа все массивы</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа все массивы</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаВсеМассивыРасширеннаяПодсказка" id="71"/>
+							<ChildItems>
+								<Table name="НеСотрированныйМассив" id="38">
+									<Representation>List</Representation>
+									<Header>false</Header>
+									<HorizontalLines>false</HorizontalLines>
+									<VerticalLines>false</VerticalLines>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<DataPath>НеСотрированныйМассив</DataPath>
+									<RowPictureDataPath>НеСотрированныйМассив.Picture</RowPictureDataPath>
+									<ContextMenu name="НеСотрированныйМассивКонтекстноеМеню" id="39"/>
+									<AutoCommandBar name="НеСотрированныйМассивКоманднаяПанель" id="40"/>
+									<ExtendedTooltip name="НеСотрированныйМассивРасширеннаяПодсказка" id="41"/>
+									<SearchStringAddition name="НеСотрированныйМассивСтрокаПоиска" id="42">
+										<AdditionSource>
+											<Item>НеСотрированныйМассив</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="НеСотрированныйМассивСтрокаПоискаКонтекстноеМеню" id="43"/>
+										<ExtendedTooltip name="НеСотрированныйМассивСтрокаПоискаРасширеннаяПодсказка" id="44"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="НеСотрированныйМассивСостояниеПросмотра" id="45">
+										<AdditionSource>
+											<Item>НеСотрированныйМассив</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="НеСотрированныйМассивСостояниеПросмотраКонтекстноеМеню" id="46"/>
+										<ExtendedTooltip name="НеСотрированныйМассивСостояниеПросмотраРасширеннаяПодсказка" id="47"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="НеСотрированныйМассивУправлениеПоиском" id="48">
+										<AdditionSource>
+											<Item>НеСотрированныйМассив</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="НеСотрированныйМассивУправлениеПоискомКонтекстноеМеню" id="49"/>
+										<ExtendedTooltip name="НеСотрированныйМассивУправлениеПоискомРасширеннаяПодсказка" id="50"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="НеСотрированныйМассивЗначение" id="51">
+											<DataPath>НеСотрированныйМассив.Value</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="НеСотрированныйМассивЗначениеКонтекстноеМеню" id="52"/>
+											<ExtendedTooltip name="НеСотрированныйМассивЗначениеРасширеннаяПодсказка" id="53"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+								<Table name="СортированныйМассив" id="54">
+									<Representation>List</Representation>
+									<Header>false</Header>
+									<HorizontalLines>false</HorizontalLines>
+									<VerticalLines>false</VerticalLines>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<DataPath>СортированныйМассив</DataPath>
+									<RowPictureDataPath>СортированныйМассив.Picture</RowPictureDataPath>
+									<ContextMenu name="СортированныйМассивКонтекстноеМеню" id="55"/>
+									<AutoCommandBar name="СортированныйМассивКоманднаяПанель" id="56"/>
+									<ExtendedTooltip name="СортированныйМассивРасширеннаяПодсказка" id="57"/>
+									<SearchStringAddition name="СортированныйМассивСтрокаПоиска" id="58">
+										<AdditionSource>
+											<Item>СортированныйМассив</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СортированныйМассивСтрокаПоискаКонтекстноеМеню" id="59"/>
+										<ExtendedTooltip name="СортированныйМассивСтрокаПоискаРасширеннаяПодсказка" id="60"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="СортированныйМассивСостояниеПросмотра" id="61">
+										<AdditionSource>
+											<Item>СортированныйМассив</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СортированныйМассивСостояниеПросмотраКонтекстноеМеню" id="62"/>
+										<ExtendedTooltip name="СортированныйМассивСостояниеПросмотраРасширеннаяПодсказка" id="63"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="СортированныйМассивУправлениеПоиском" id="64">
+										<AdditionSource>
+											<Item>СортированныйМассив</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="СортированныйМассивУправлениеПоискомКонтекстноеМеню" id="65"/>
+										<ExtendedTooltip name="СортированныйМассивУправлениеПоискомРасширеннаяПодсказка" id="66"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="СортированныйМассивЗначение" id="67">
+											<DataPath>СортированныйМассив.Value</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="СортированныйМассивЗначениеКонтекстноеМеню" id="68"/>
+											<ExtendedTooltip name="СортированныйМассивЗначениеРасширеннаяПодсказка" id="69"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.Проверка</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ИсходнаяСтрока" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Исходная строка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Разделитель" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разделитель</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Результат" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результат</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ИсходныйСписок" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Исходный список</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Settings xsi:type="v8:TypeDescription">
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Settings>
+		</Attribute>
+		<Attribute name="НеСотрированныйМассив" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Не сотрированный массив</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Settings xsi:type="v8:TypeDescription">
+				<v8:Type>xs:string</v8:Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Settings>
+		</Attribute>
+		<Attribute name="СортированныйМассив" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сортированный массив</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Settings xsi:type="v8:TypeDescription">
+				<v8:Type>xs:string</v8:Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Settings>
+		</Attribute>
+		<Attribute name="КоличествоЭлементов" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество элементов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВариантСортировки" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вариант сортировки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>1</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВыполнитьАналогСтрРазделить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить аналог стр разделить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить аналог стр разделить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьАналогСтрРазделить</Action>
+		</Command>
+		<Command name="ВыполнитьАналогСтрСоединить" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить аналог стр соединить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить аналог стр соединить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьАналогСтрСоединить</Action>
+		</Command>
+		<Command name="ЗаполнитьМассивСлучайнымиЗначениями" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить массив случайными значениями</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить массив случайными значениями</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьМассивСлучайнымиЗначениями</Action>
+		</Command>
+		<Command name="СортироватьМассив" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сортировать массив</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сортировать массив</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СортироватьМассив</Action>
+		</Command>
+		<Command name="ПроверкаСтруктурыМассивыВСтроку" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверка структуры массивы в строку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверка структуры массивы в строку</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроверкаСтруктурыМассивыВСтроку</Action>
+		</Command>
+	</Commands>
+</Form>
